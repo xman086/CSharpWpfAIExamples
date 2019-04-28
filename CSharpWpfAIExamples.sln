@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonCollection", "CommonCollection\CommonCollection.csproj", "{859E519A-9070-44EC-AA32-A853400DFF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraFaceDetection", "CameraFaceDetection\CameraFaceDetection.csproj", "{CDD6A2FA-E09D-4041-934F-351677039927}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{859E519A-9070-44EC-AA32-A853400DFF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859E519A-9070-44EC-AA32-A853400DFF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859E519A-9070-44EC-AA32-A853400DFF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859E519A-9070-44EC-AA32-A853400DFF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD6A2FA-E09D-4041-934F-351677039927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD6A2FA-E09D-4041-934F-351677039927}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD6A2FA-E09D-4041-934F-351677039927}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD6A2FA-E09D-4041-934F-351677039927}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80437336-9E55-4996-8E2F-DFDFEA7779C9}
+	EndGlobalSection
+EndGlobal
