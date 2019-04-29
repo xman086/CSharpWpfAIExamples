@@ -212,6 +212,6 @@ namespace CameraFaceDetection
                 this.WindowState = WindowState.Normal;
             }
         }
-        #endregion End of methods:
+        #endregion End of methods.
     }
 }
