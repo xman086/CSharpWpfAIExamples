@@ -6,7 +6,7 @@ This repository contains C# written Deep Neural Network (DNN) image processing W
   - Example: https://youtu.be/LBLWCOjqfqE
 - MultiPerson2DPoseEstimation
   - Use: TensorFlow frozen_model.bytes
-  - Example: 
+  - Example: https://youtu.be/A8VtRkL1L-A 
   - Requirement: https://github.com/migueldeicaza/TensorFlowSharp/ 
 # All projects requirements
   - Visual Studio C#
