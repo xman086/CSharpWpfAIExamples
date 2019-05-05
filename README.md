@@ -2,7 +2,7 @@
 This repository contains C# written Deep Neural Network (DNN) image processing WPF examples. All examples are very simple and clear to know. There are very few project in this repo now but I will expand the number of projects continuously as my time allows.
 # Projects
 - FaceDetection: 
-  - Use: this project uses full EmguCV and res10_300x300_ssd_iter_140000.caffemodel
+  - Use: Emgu.CV.Dnn and res10_300x300_ssd_iter_140000.caffemodel
   - Example: https://youtu.be/LBLWCOjqfqE
 - MultiPerson2DPoseEstimation
   - Use: TensorFlow and frozen_model.bytes (75)
