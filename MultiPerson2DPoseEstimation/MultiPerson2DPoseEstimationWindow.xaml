@@ -8,7 +8,7 @@
         AllowsTransparency="True"
         WindowStyle="None"
         ResizeMode="CanResizeWithGrip"
-        Title="Face detection example"
+        Title="Multi person pose estimation example"
         Height="480"
         Width="640"
         Loaded="Window_Loaded"

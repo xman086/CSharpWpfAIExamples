@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraFaceDetection", "Came
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiPerson2DPoseEstimation", "MultiPerson2DPoseEstimation\MultiPerson2DPoseEstimation.csproj", "{D00992D2-BCD8-4057-B65D-DD607A6B14FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CameraObjectDetection", "CameraObjectDetection\CameraObjectDetection.csproj", "{CF387E2D-B1A0-41DB-8AF4-9BD99FB96D39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D00992D2-BCD8-4057-B65D-DD607A6B14FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D00992D2-BCD8-4057-B65D-DD607A6B14FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D00992D2-BCD8-4057-B65D-DD607A6B14FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF387E2D-B1A0-41DB-8AF4-9BD99FB96D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF387E2D-B1A0-41DB-8AF4-9BD99FB96D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF387E2D-B1A0-41DB-8AF4-9BD99FB96D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF387E2D-B1A0-41DB-8AF4-9BD99FB96D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
