@@ -61,12 +61,7 @@ namespace CameraFaceDetection
         /// This class allows to create and manipulate comprehensive artificial neural networks.
         /// </summary>
         private Net net;
-
-        /// <summary>
-        /// Resized frame.
-        /// </summary>
-        private Image<Bgr, byte> resizedFrame;
-
+        
         /// <summary>
         /// prototxt path.
         /// </summary>
@@ -90,7 +85,6 @@ namespace CameraFaceDetection
             xRate = resolutionX / (float)detectionSize;
             yRate = resolutionY / (float)detectionSize;
             net = DnnInvoke.ReadNetFromCaffe(protoPath, caffemodelPath);
-            resizedFrame = new Image<Bgr, byte>(detectionSize, detectionSize);
         }
 
         #region Methods:
@@ -104,7 +98,6 @@ namespace CameraFaceDetection
             camera.Retrieve(frame);
             
             //CvInvoke.Flip(frame, frame, Emgu.CV.CvEnum.FlipType.Horizontal);
-            CvInvoke.Resize(frame, resizedFrame, new System.Drawing.Size(detectionSize, detectionSize));
             Mat blobs = DnnInvoke.BlobFromImage(frame, 1.0, new System.Drawing.Size(detectionSize, detectionSize));
             net.SetInput(blobs);
             Mat detections = net.Forward();
@@ -113,7 +106,7 @@ namespace CameraFaceDetection
 
             for (int i = 0; i < detectionsArrayInFloats.GetLength(2); i++)
             {
-                if (Convert.ToSingle(detectionsArrayInFloats[0, 0, i, 2], CultureInfo.InvariantCulture) > 0.5)
+                if (Convert.ToSingle(detectionsArrayInFloats[0, 0, i, 2], CultureInfo.InvariantCulture) > 0.4)
                 {
                     float Xstart = Convert.ToSingle(detectionsArrayInFloats[0, 0, i, 3], 
                         CultureInfo.InvariantCulture) * detectionSize * xRate;
